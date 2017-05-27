@@ -8,7 +8,7 @@
 				"Service": "machinelearning.amazonaws.com"
 			},
 			"Action": "s3:ListBucket",
-			"Resource": "arn:aws:s3:::BUCKET_NAME"
+			"Resource": "arn:aws:s3:::wangbri-ml-demo"
 		},
 		{
 			"Sid": "AmazonML_s3:GetObject",
@@ -17,7 +17,7 @@
 				"Service": "machinelearning.amazonaws.com"
 			},
 			"Action": "s3:GetObject",
-			"Resource": "arn:aws:s3:::BUCKET_NAME/*"
+			"Resource": "arn:aws:s3:::wangbri-ml-demo/*"
 		},
 		{
 			"Sid": "AmazonML_s3:PutObject",
@@ -26,7 +26,7 @@
 				"Service": "machinelearning.amazonaws.com"
 			},
 			"Action": "s3:PutObject",
-			"Resource": "arn:aws:s3:::BUCKET_NAME/*"
+			"Resource": "arn:aws:s3:::wangbri-ml-demo/*"
 		}
 	]
 }
