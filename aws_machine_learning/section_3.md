@@ -4,7 +4,7 @@
 
 Use squared error loss function to determine accuracy of linear regression hypothesis. Objective is to find the weights associated with the linear regression equation.
 
-**numpy.random.rand(150)*20** generates a series of random values from [0, 1) by default and can be specified to return 150 random values between 0 and 20 in this case. This series can serve as x values for a given function to calculate our training set.
+__numpy.random.rand(150)*20__ generates a series of random values from [0, 1) by default and can be specified to return 150 random values between 0 and 20 in this case. This series can serve as x values for a given function to calculate our training set.
 
 To find the correct weight, linear regression uses a loss function to determine how close or far the predicted value is from the actual. Loss is 0 when predicted value is exactly equal to the actual value.
 
